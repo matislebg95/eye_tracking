@@ -5,23 +5,26 @@ This project predicts where a user is looking on a screen using **FaceMesh** fac
 ##  Project Structure
 
 ```
-├── coordinate_prediction.ipynb # Jupyter notebook for experimentation and model │                               # training
-├── dataset # Processed datasets for training
+├── coordinate_prediction.ipynb # Jupyter notebook for experimentation and model training
+├── dataset                     # Processed datasets for training
 │   ├── face_landmarks_2025-12-03T16-34-50-227Z..csv
 │   ├── face_landmarks_2025-12-03T16-55-54-791Z..csv
 │   ├── face_landmarks_2025-12-15T09-27-27-405Z..csv
 │   └── face_landmarks_2025-12-15T09-40-57-367Z..csv
-├── example.json # Example input file format
-├── json # Raw data (FaceMesh + pupil coordinates + metadata)
+│
+├── example.json                # Example input file format
+├── json                        # Raw data (FaceMesh + pupil coordinates + metadata)
 │   ├── face_landmarks_2025-12-03T16-34-50-227Z.json
 │   ├── face_landmarks_2025-12-03T16-55-54-791Z.json
 │   ├── face_landmarks_2025-12-15T09-27-27-405Z.json
 │   └── face_landmarks_2025-12-15T09-40-57-367Z.json
-├── lightgbm_model_x.pkl # LightGBM model for X-coordinate prediction
-├── lightgbm_model_y.pkl # LightGBM model for Y-coordinate prediction
-├── optimal_df # Optimized datasets for model training
+│
+├── lightgbm_model_x.pkl        # LightGBM model for X-coordinate prediction
+├── lightgbm_model_y.pkl        # LightGBM model for Y-coordinate prediction
+├── optimal_df                  # Optimized datasets for model training
 │   └── df.csv
-└── predict_coordinate.py # Main script for real-time prediction
+│
+└── predict_coordinate.py        # Main script for real-time prediction
 
 ```
 
