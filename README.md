@@ -2,7 +2,7 @@
 
 This project predicts where a user is looking on a screen using **FaceMesh** facial landmarks and pupil positions captured via a webcam. The prediction is performed using a **LightGBM** model trained on collected gaze data. 
 
-##  Project Structure`
+##  Project Structure
 
 ```
 ├── coordinate_prediction.ipynb # Jupyter notebook for experimentation and model │                               # training
